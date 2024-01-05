@@ -1,0 +1,94 @@
+.product-info{
+    display: grid;
+    grid-template-columns: 1fr 5fr 4fr;
+    
+}
+
+.thumbnail-image{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.thumbnail-image img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+}
+.main-img{
+    height: 90%;
+    width: 90%;
+}
+.description{
+
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.rating{
+    color: orange;
+}
+.price-sec{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+}
+.price{
+    font-size: larger;
+    font-weight: bolder;
+}
+.saving{
+    color: green;
+    font-weight: bolder;
+}
+.instock{
+    background-color: green;
+    padding: 4px;
+}
+.outofstock{
+    background-color: red;
+    padding: 4px;
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.offers{
+    border: 1px solid white;
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+}
+.offers-discount{
+    border-bottom: 1px solid white;
+}
+
+.desc-tab{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.desc-tab button{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(54, 52, 52);
+    
+}
+.desc-tab button:hover{
+    background-color: red;
+}
+
+#specifications{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#reviews table{
+    margin: 50px;
+    width: 30%;
+
+}

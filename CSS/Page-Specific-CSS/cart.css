@@ -1,0 +1,18 @@
+.cart-section{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#cart{
+    color:red;
+    font-weight: bolder;
+}
+
+.cart{
+display: flex;
+}
+
+.summary{
+margin: 1px 20px;
+}

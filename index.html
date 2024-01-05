@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Tech-Shop</title>
+    <link rel="stylesheet" href="./CSS/globalStyle.css">
+    <link rel="stylesheet" href="./CSS/Page-Specific-CSS/login.css">
+</head>
+<body>
+    <section id="signup-section">
+        <div class="signup">
+            <h2>Signup</h2>
+            <p>Already have an account? <button id="login-page">Login</button></p>
+            <input type="text" id="user-name"placeholder="Username">
+            <span id="username-error">Enter username</span>
+            <input type="text" id="signup-email" placeholder="Email">
+            <span id="signup-email-error">Enter email id</span>
+            <input type="password" id="signup-password" placeholder="Password">
+            <span id="signup-password-error">Enter password</span>
+            <input type="password" id="signup-cnf-pwd" placeholder="Confirm Password">
+            <span id="signup-cnfpwd-error">Reenter password</span>
+            <span id="password-mismatch">The password confirmation does not match</span>
+            <button class="signup-btn">Signup</button>
+            <hr>&nbsp; or login with &nbsp;<hr>
+            <button class="facebook">Facebook</button>
+            <button class="google">Google</button>
+            <button class="twitter">Twitter</button>
+
+        </div>
+    </section>
+
+    <section id="login-section">
+        <div class="login">
+            <h2>Login</h2>
+            <p>New to Tech-Shop? &nbsp;<button id="signup-page">Create an account</button></p>
+            <input type="text" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Password">
+            <span id="login-error">Enter a valid email and password</span>
+            <button class="login-btn">Login</button>
+            <hr>&nbsp;or login with&nbsp;<hr>
+            <button class="facebook">Facebook</button>
+            <button class="google">Google</button>
+            <button class="twitter">Twitter</button>
+
+        </div>
+    </section>
+
+    <script src="./JavaScript/login-page.js"></script>
+</body>
+</html>
