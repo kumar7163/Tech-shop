@@ -433,7 +433,7 @@ function cartRedering(){
 let cartItemsDisplay = "";
 productsInCart.forEach((item)=>{
     cartItemsDisplay += `<div style="display:flex; justify-content:space-around; border: 1px dotted grey;">
-    <img class="mt-5" src="./Javascript/${item.images[0]}" style="height:50%; width:25%;">
+    <img class="mt-5" src="./Javascript/${item?.images[0]}" style="height:50%; width:25%;">
     <div>
     <p class="mt-5">${item.title}</p>
     <span style="font-weight:bold;">Rs ${item.finalPrice}  <span style="text-decoration:line-through;">Rs${item.originalPrice}</span></span><br>
