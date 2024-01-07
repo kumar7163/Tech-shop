@@ -469,7 +469,7 @@ const cart = document.getElementById("cart");
 const productInformation = document.getElementById("product-information");
 
 productInformation.innerHTML = `<div class="thumbnail-image">
-<div><img src=${displayProduct.images[0]} alt=""></div>
+<div><img src=".${displayProduct.images[0]}" alt=""></div>
 <div><img src=${displayProduct.images[1]} alt=""></div>
 <div><img src=${displayProduct.images[2]} alt=""></div>
 <div><img src=${displayProduct.images[3]} alt=""></div>
